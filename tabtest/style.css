@@ -1,0 +1,33 @@
+div.tab-widget {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 3px;
+    width: 500px;
+}
+div.tab-widget > .tab-switch {
+    display: flex;
+    flex-direction: row;
+}
+.tab-switch {
+    background-color: rgb(168, 164, 164);
+}
+.tab-switch > input{
+    border: none;
+    background-color: inherit;
+    transition: 0.2s;
+}
+.tab-switch > input.active {
+    background-color: #ffffff;
+}
+.tab-switch > input:hover {
+    background-color: antiquewhite;
+}
+div.tab-widget > .tab-cont {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+.tab-cont > * {
+    display: none;
+}
